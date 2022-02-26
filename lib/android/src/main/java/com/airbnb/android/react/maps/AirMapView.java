@@ -209,6 +209,8 @@ public class AirMapView extends MapView implements GoogleMap.InfoWindowAdapter,
 
   @Override
   public void onMapReady(final GoogleMap map) {
+    map.getUiSettings().setMapToolbarEnabled(false);
+      
     if (destroyed) {
       return;
     }

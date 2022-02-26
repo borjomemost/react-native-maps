@@ -181,7 +181,7 @@ public class AirMapManager extends ViewGroupManager<AirMapView> {
     view.setShowsMyLocationButton(showMyLocationButton);
   }
 
-  @ReactProp(name = "toolbarEnabled", defaultBoolean = true)
+  @ReactProp(name = "toolbarEnabled", defaultBoolean = false)
   public void setToolbarEnabled(AirMapView view, boolean toolbarEnabled) {
     view.setToolbarEnabled(toolbarEnabled);
   }
